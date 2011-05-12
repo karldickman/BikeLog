@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeLog", "BikeLog\BikeLog.csproj", "{86FF6520-99EF-4951-BF45-2CAADFFE7189}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeLog.Model", "BikeLog.Model\BikeLog.Model.csproj", "{AA46CA1B-4C8F-44D4-B669-64B6BCACA185}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeLog.Model.Tests", "BikeLog.Model.Tests\BikeLog.Model.Tests.csproj", "{06E0E586-655C-4904-BB9D-29E26E54BB89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeLog", "BikeLog\BikeLog.csproj", "{1EA5FEBE-3955-4E73-A808-98BCA5BC1A58}"
+EndProject
+Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "Packages", "Packages.mdproj", "{2FC9ACB2-F630-4A11-A5DC-EF492F0ACECD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +19,12 @@ Global
 		{06E0E586-655C-4904-BB9D-29E26E54BB89}.Debug|x86.Build.0 = Debug|Any CPU
 		{06E0E586-655C-4904-BB9D-29E26E54BB89}.Release|x86.ActiveCfg = Release|Any CPU
 		{06E0E586-655C-4904-BB9D-29E26E54BB89}.Release|x86.Build.0 = Release|Any CPU
-		{86FF6520-99EF-4951-BF45-2CAADFFE7189}.Debug|x86.ActiveCfg = Debug|x86
-		{86FF6520-99EF-4951-BF45-2CAADFFE7189}.Debug|x86.Build.0 = Debug|x86
-		{86FF6520-99EF-4951-BF45-2CAADFFE7189}.Release|x86.ActiveCfg = Release|x86
-		{86FF6520-99EF-4951-BF45-2CAADFFE7189}.Release|x86.Build.0 = Release|x86
+		{1EA5FEBE-3955-4E73-A808-98BCA5BC1A58}.Debug|x86.ActiveCfg = Debug|x86
+		{1EA5FEBE-3955-4E73-A808-98BCA5BC1A58}.Debug|x86.Build.0 = Debug|x86
+		{1EA5FEBE-3955-4E73-A808-98BCA5BC1A58}.Release|x86.ActiveCfg = Release|x86
+		{1EA5FEBE-3955-4E73-A808-98BCA5BC1A58}.Release|x86.Build.0 = Release|x86
+		{2FC9ACB2-F630-4A11-A5DC-EF492F0ACECD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2FC9ACB2-F630-4A11-A5DC-EF492F0ACECD}.Release|x86.ActiveCfg = Release|Any CPU
 		{AA46CA1B-4C8F-44D4-B669-64B6BCACA185}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{AA46CA1B-4C8F-44D4-B669-64B6BCACA185}.Debug|x86.Build.0 = Debug|Any CPU
 		{AA46CA1B-4C8F-44D4-B669-64B6BCACA185}.Release|x86.ActiveCfg = Release|Any CPU
