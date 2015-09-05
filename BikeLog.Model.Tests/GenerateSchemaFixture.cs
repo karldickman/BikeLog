@@ -8,8 +8,6 @@ namespace BikeLog.Model.Tests
     [TestFixture]
     public sealed class GenerateSchemaFixture
     {
-        #region Tests
-
         [Test]
         public void SchemaGeneration()
         {
@@ -18,8 +16,5 @@ namespace BikeLog.Model.Tests
             configuration.AddAssembly(typeof(Manufacturer).Assembly);
             new SchemaExport(configuration).Execute(false, true, false);
         }
-
-        #endregion
     }
 }
-

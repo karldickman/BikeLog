@@ -2,7 +2,7 @@
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ItemType>PackagingProject</ItemType>
-    <ProductVersion>10.0.0</ProductVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2FC9ACB2-F630-4A11-A5DC-EF492F0ACECD}</ProjectGuid>
     <Packages>
@@ -17,14 +17,6 @@
         </Package>
         <Package name="Microsoft Windows Binaries">
           <Builder targetFile="BikeLog-windows.tar.gz" platform="Windows" configuration="Debug|x86" ctype="BinariesZipPackageBuilder">
-            <ChildEntries>
-              <SolutionItemReference path="BikeLog\BikeLog.csproj" />
-            </ChildEntries>
-            <RootEntry path="BikeLog.sln" id=":root:" />
-          </Builder>
-        </Package>
-        <Package name="Tarball">
-          <Builder TargetDirectory="BikeLog" DefaultConfiguration="Debug|x86" ctype="TarballDeployTarget">
             <ChildEntries>
               <SolutionItemReference path="BikeLog\BikeLog.csproj" />
             </ChildEntries>
